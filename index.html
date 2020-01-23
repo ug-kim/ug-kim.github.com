@@ -179,7 +179,20 @@
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">The Student Council</h3>
+            <div class="subheading mb-3">Head of Foreign Cooperation Bureau</div>
+            <p>I worked in the student council for 3 years.
+              <br>
+              And I worked the head of Foreign Cooperation Bureau in the 4th student council. My team organized and led various activities, including the five IST joint sprot competition(STadium), rural volunteer work, and briquettes volunteer work.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2018 - January 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Winitech</h3>
             <div class="subheading mb-3">Development Intern</div>
@@ -190,8 +203,19 @@
           </div>
         </div>
 
-      </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">SB LAB Intern</h3>
+            <div class="subheading mb-3">DGIST Department of Brain and Cognitive Sciences</div>
+            <p>Intern in research activities for degenerative brain diseases using Drosophila.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2016 - January 2017</span>
+          </div>
+        </div>
 
+      </div>
+ 
     </section>
 
 
@@ -209,7 +233,7 @@
               <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Semantic segmentation for change detection
+                  Dormitory Public laundry monitoring system
                 </div>
                 <div>
                 <button type="button" class="btn btn-info btn-lg button" data-toggle="modal" data-target="#myModal">+</button>
@@ -222,13 +246,17 @@
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title">Semantic segmentation for change detection</h4>
+                    <h4 class="modal-title">Dormitory Public laundry monitoring system</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
+                    <div>
+                      <iframe id="iframeYoutube" src="https://www.youtube.com/embed/lYdbqmBwZNY" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <div class="mbody">
-                      <p> 
-                          &nbsp;&nbsp;The work of company is a change detection project using semantic segmentation, which can identify the changes in buildings of Seoul Metropolitan by year using satellite photography. In order to train the learning, I needed to understand the characteristics of the data that I want to train, so I did labeling and preprocessing the data. The train method was to concatenate the 2015 aerial image and the 2017 aerial image, and setting the changed part of the two years as the mask.
+                      <p>
+                        &nbsp;&nbsp;My team have developed Dormitory Public laundry monitoring system at DGIST making club.
+                        We used computer vision, LBP cascade, and web applications.
                       </p>
                     </div>
                   </div>
@@ -246,7 +274,7 @@
               <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Multi-label classification at face image
+                  Computer vision automatic door
                 </div>
                 <div>
                 <button type="button" class="btn btn-info btn-lg button" data-toggle="modal" data-target="#myModal2">+</button>
@@ -258,29 +286,17 @@
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title">Multi-label classification at face image</h4>
+                    <h4 class="modal-title">Computer vision automatic door</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
-
                     <div>
-                      <iframe id="iframeYoutube" src="https://www.youtube.com/embed/12OsMPgDcPc" frameborder="0" allowfullscreen></iframe>
+                      <iframe id="iframeYoutube" src="https://www.youtube.com/embed/UdBZKwecaCQ" frameborder="0" allowfullscreen></iframe> 
                     </div>
                     <div class="mbody">
                         <p>
-                            &nbsp;&nbsp;The classes are divided into five classes: skin color, hair color, glasses presence, glasses type, and eyebrow type. Since the classifier of the trained model will work in the mobile environment, I constructed the model using Mobilenet ver2.
-                        </p>
-                        <p>
-                            &nbsp;&nbsp;I also applied DANN (Domain adversarial neural network) as a side project. The reason I wanted to apply DANN was that the company used the Unity engine to create a lot of face photos by combining the various cases of each class.
-                        Since the company didn’t have many real human face photos and it's hard to label them manually, they have created a tool that can be set the labels as desired. However, the image created by the Unity engine is a game avatar-like image, which is very different from the real face image. 
-                        </p>
-                        <p>
-                            &nbsp;&nbsp;Therefore, to overcome this problem, we tried to make confuse the domain by using DANN.
-                        However, the reason for the large domain difference between real and synthetic images, The training did not overcome the problem even when using DANN.
-                        </p>
-                        <p>
-                            &nbsp;&nbsp;Due to the limited internship period, the project could not be further progressed.
-                        I think it could be overcome to change the domain of the synthetic image to real image domain by using the cycleGAN method.                        
+                            &nbsp;&nbsp;This project was to create a product that can be easily converted from hinged door to automatic door.
+                            We used computer vision tech in software, Arduino, Raspberry Pi, and webcams in hardware, and SolidWorks for modeling.
                         </p>
                     </div>
                   </div>
@@ -297,7 +313,7 @@
               <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Computer vision automatic door
+                  Multi-Label Classification at Face Image
                 </div>
                 <div>
                 <button type="button" class="btn btn-info btn-lg button" data-toggle="modal" data-target="#myModal3">+</button>
@@ -309,27 +325,18 @@
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title"> Computer vision automatic door</h4>
+                    <h4 class="modal-title">Multi-Label Classification at Face Image</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
-
                     <div>
-                      <iframe id="iframeYoutube" src="https://www.youtube.com/embed/UdBZKwecaCQ" frameborder="0" allowfullscreen></iframe> 
+                      <iframe id="iframeYoutube" src="https://www.youtube.com/embed/12OsMPgDcPc" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="mbody">
                         <p>
-                            &nbsp;&nbsp;This project was to create a product that can be easily converted from hinged door to  automatic door. Existing doors are difficult to use for people who are under heavy or need help, such as those with heavy loads, wheelchairs, or children with limited strength. Therefore, we wanted to build a product that would provide the power to open these hinged doors. The goal was not to change the door itself to the automatic doors, but to create the convenience machine of easy installation and the reasonable price.
-                        </p>
-                        <p>
-                            &nbsp;&nbsp;In addition, there was a simple way to open the door through human body detection sensor, RFID, NFC card recognition, etc. However, we chose more complex way to recognize people which is computer vision technology.
-                            We used a haar cascade and extracted features based on the per-pixel brightness of the face image. Faces are detected by drawing a bounding box on the face using a webcam and opencv.
-                        </p>
-                        <p>
-                            &nbsp;&nbsp;The hardware used solid works to design the arm structure opening the body of the door and moving the motor.
-                        </p>
-                        <p>
-                            &nbsp;&nbsp;I designed the PID control in Arduino to control the movement of the motor. In communication with the Raspberry Pi, let the motor open the door according to the facial recognition information from the webcam.
+                            &nbsp;&nbsp;The classes are divided into five classes: skin color, hair color, glasses presence, glasses type, and eyebrow type. 
+                            I did a multilabel classification of these human facial feature classess. 
+                            I used PyTorch and Mobilenet ver2 model.                        
                         </p>
                     </div>
                   </div>
@@ -346,7 +353,7 @@
               <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
-                  Dormitory Public laundry monitoring system
+                  Satellite images segmentation &amp; data processing
                 </div>
                 <div>
                 <button type="button" class="btn btn-info btn-lg button" data-toggle="modal" data-target="#myModal4">+</button>
@@ -358,28 +365,14 @@
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title">Dormitory Public laundry monitoring system</h4>
+                    <h4 class="modal-title">Satellite images segmentation &amp; data processing</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
-                    <div>
-                      <iframe id="iframeYoutube" src="https://www.youtube.com/embed/lYdbqmBwZNY" frameborder="0" allowfullscreen></iframe>
-                    </div>
                     <div class="mbody">
                       <p>
-                          &nbsp;&nbsp;My team have developed Dormitory Public laundry monitoring system at DGIST making club.
-                      </p>
-                      <p>
-                          &nbsp;&nbsp;Most of DGIST students lives in dormitory. Students have to use the washing machine and dryer in the laundry room located on one floor of the dormitory. However, many people use a washing machine and a dryer, so when students go to use laundry, the washing machine is all in use, so they have to wait a long time. 
-                      </p>
-                      <p>
-                          &nbsp;&nbsp;Also, if they keep the washing machine running and do other things, it is difficult to know the remaining time for the washing machine they have returned. Therefore, I wanted to develop a service to check the operating state of washing machines and dryers to help students use the laundry room more conveniently and smartly.
-                      </p>
-                      <p>
-                          &nbsp;&nbsp;Using computer vision technology, we can get whether the washing machine's LEDs were working. Therefore, we obtained several LED images in the dormitory laundry room, and divided the cases whether the machine is working or not. I trained LED images using LBP cascade method.
-                      </p>
-                      <p>
-                          &nbsp;&nbsp;The result of the training was used to classify the operation status by receiving the information from the laundry room in real time using the webcam. The hardware for installing the webcam and the Raspberry Pi was manufactured in Solidworks. Raspberry Pi checked the operating status from the laundry room by using the trained model and the webcam, and sending it to the server. The web front-end which is client can get the information from the server and show information to users.
+                          &nbsp;&nbsp;I worked change detection using segmentation method. I mainly did data processing with json(or geojson) files.
+                          I studied pix2pixHD(image-to-image translation) for making training images.
                       </p>
                     </div>
                   </div>
@@ -418,10 +411,7 @@
                     </div>
                     <div class="mbody">
                       <p>
-                          &nbsp;&nbsp;I participated in the World Friends ICT Volunteer to conduct Web Programming classes. Since web programming class was not offered at DGIST, my team took a separate study time during the main semester. We created a web page that contains information about our team. 
-                      </p>
-                      <p>
-                          &nbsp;&nbsp;We studied all aspects of our primary skills with our team members and made the lesson materials altogether. Volunteering target was an IT college student at Can Tho University in Vietnam. 
+                          &nbsp;&nbsp;I participated in the World Friends ICT Volunteer to conduct Web Programming classes. Since web programming class was not offered at DGIST, my team took a separate study time during the main semester.
                       </p>
                       <p>
                           &nbsp;&nbsp;The class taught the basics of HTML tag syntax, decorating web pages with CSS, responsive models, creating dynamic web pages with JavaScript, and building servers and databases using PHP and MySQL. 
