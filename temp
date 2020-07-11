@@ -5,10 +5,10 @@
  */
 
 body {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #000000;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 992px) {
@@ -31,23 +31,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Archivo Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Merriweather Sans', sans-serif;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Merriweather Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 p.lead {
@@ -56,10 +56,10 @@ p.lead {
 }
 
 .subheading {
+  text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Archivo Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.3rem;
-  color: #8670d1;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
 }
 
 .social-icons a {
@@ -122,8 +122,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 13rem;
-    max-height: 13rem;
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.3rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -249,25 +250,33 @@ a:hover, a:focus, a:active {
   border-color: black !important;
 }
 
-.iframeWrapper {
-  position: relative;
-	width: 100%;
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 56.26%;
-}
-
 #iframeYoutube{
-  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 33vw;
   padding: 20px;
 }
 
-.modal-image-5{
-  position: absolute;
+.modal-image-1{
   width: 100%;
-  height: 100%;
+  height: 20vw;
+  margin-bottom: 2rem;
+}
+
+.modal-image-4{
+  width: 100%;
+  height: 15vw;
+  margin-bottom: 2rem;
+}
+
+.modal-image-5{
+  width: 100%;
+  height: 35vw;
+  margin-bottom: 2rem;
+}
+
+.modal-image-6{
+  width: 100%;
+  height: 32vw;
   margin-bottom: 2rem;
 }
 
@@ -275,17 +284,8 @@ a:hover, a:focus, a:active {
   text-transform: capitalize !important;
 }
 
-.satImageWrapper {
-  position: relative;
-	width: 100%;
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 100%;
-}
-
 .sat-image {
-  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 55vw;
   padding: 20px;
 }
