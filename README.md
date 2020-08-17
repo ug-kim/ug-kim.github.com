@@ -1,3 +1,3 @@
-# ug-kim.github.com
+# ug-kim.github.io
 
 My CV Site
